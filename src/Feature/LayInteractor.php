@@ -17,7 +17,7 @@ class LayInteractor
     public function createLay(Lay $lay)
     {
         $this->layGateway->save($lay);
-        return $response;
+        return $lay;
         
     }
 }
